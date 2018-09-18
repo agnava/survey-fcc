@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    <link rel="stylesheet" type="text/css" href="assest/style.css">
+</head>
+
+<body>
+    <h1 id="title">Form</h1>
+    <p id="description">Well you have to fill this survey form to get this process going.</p>
+    <form id="survey-form">
+        <label for="name-label">Name:</label> 
+        <input id="name" type="text" value="Your Name" pattern="[A-Za-z]" placeholder="Name" required minlength="1">
+        <label for="email-label">Email:</label>
+        <input id="email" type="email" value="example@site.com" placeholder="email" required minlength="1">
+        <label for="number-label">Enter No:</label>
+        <input id="number" type="number" value="Registered no" min="10000" max="20000" placeholder="Registered no." required minlength="1"><br>
+
+
+        Select your choice:
+        
+        <button id="dropdown">Dropdown</button>
+                <div class="dropdown">
+                <div class="dropdown-content">
+                  <a href="#">Engineer</a>
+                  <a href="#">Doctor</a>
+                  <a href="#">Pilot</a>
+                </div>
+              </div>
+
+        <br>
+        Select:<br>
+        <input name="gender" type="radio"  value="male">Male<br>
+        <input  name="gender" type="radio" value="female">Female<br>
+        <input name="gender" type="radio" value="Dont want to specify">Dont want to specify<br>
+
+        Qualification:<br>
+        <input type="checkbox" value="class10">Class 10<br>
+        <input type="checkbox" value="class12">Class 12<br>
+        <input type="checkbox" value="Grad"> Graduate<br>
+
+        Additional Comments:<br>
+
+        <textarea name="comment">comments</textarea><br>
+
+        <input id="submit" type="submit" value="Submit"><br>
+
+        <script src=https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js></script>
+    </form>
+</body>
+
+</html>
