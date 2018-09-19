@@ -14,17 +14,17 @@
     <h1 id="title">Form</h1>
     <p id="description">Well you have to fill this survey form to get this process going.</p>
     <form id="survey-form">
-        <label for="name-label">Name:</label> 
+        <label id="name-label" for="name-label">Name:</label> 
         <input id="name" type="text" value="Your Name" pattern="[A-Za-z]" placeholder="Name" required minlength="1">
-        <label for="email-label">Email:</label>
+        <label id="email-label" for="email">Email:</label>
         <input id="email" type="email" value="example@site.com" placeholder="email" required minlength="1">
-        <label for="number-label">Enter No:</label>
+        <label id="number-label"  for="number">Enter No:</label>
         <input id="number" type="number" value="Registered no" min="10000" max="20000" placeholder="Registered no." required minlength="1"><br>
-
+<br>
 
         Select your choice:
         
-        <button id="dropdown">Dropdown</button>
+        <select id="dropdown">Dropdown</select>
                 <div class="dropdown">
                 <div class="dropdown-content">
                   <a href="#">Engineer</a>
